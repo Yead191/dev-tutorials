@@ -17,6 +17,7 @@ import {
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
+import Image from "next/image";
 
 export function MainNav({ items, user }) {
     const pathname = usePathname();
@@ -47,7 +48,7 @@ export function MainNav({ items, user }) {
                                 {item.title}
                             </Link>
                         ))}
-                        
+
                     </div>
                 </SheetContent>
             </Sheet>
@@ -114,7 +115,14 @@ export function MainNav({ items, user }) {
             {/* Profile Update Modal */}
             <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
                 <DialogContent className="p-6">
-                    <h2 className="text-lg font-semibold mb-4">Update Profile</h2>
+                    <h2 className="text-lg font-semibold mb-1">Update Profile</h2>
+                    <div className="flex justify-center items-center">
+                        {
+                            user?.picture ? <Image className="rounded-lg" src={user.picture} height={150} width={100} />
+                                :
+                                <Image className="rounded-lg" src={"https://static.vecteezy.com/system/resources/previews/024/983/914/non_2x/simple-user-default-icon-free-png.png"} height={150} width={100} />
+                        }
+                    </div>
                     <form className="flex flex-col gap-3">
                         <Input type="text" placeholder="Full Name" defaultValue={user?.given_name} />
                         <Input type="email" placeholder="Email" defaultValue={user?.email} disabled />

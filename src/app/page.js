@@ -3,6 +3,7 @@ import Courses from "@/components/Home/Courses";
 import Faq from "@/components/Home/Faq";
 import Hero from "@/components/Home/Hero";
 import Instructors from "@/components/Home/Instructors";
+import Newsletter from "@/components/Home/Newsletter";
 import Testimonials from "@/components/Home/Testimonials";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -16,6 +17,7 @@ export default function Home() {
       <Testimonials></Testimonials>
       <Instructors></Instructors>
       <Faq></Faq>
+      {/* <Newsletter></Newsletter> */}
     </div>
   );
 }
