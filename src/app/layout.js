@@ -1,6 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { MainNav } from "@/components/MainNav";
+import { AuthProvider } from "./AuthProvider";
+import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,32 +21,49 @@ export const metadata = {
 };
 const navLinks = [
   {
-    title: "Features",
-    href: "/features",
+    title: "Home",
+    href: "/",
   },
   {
     title: "Browse Courses",
     href: "/courses",
   },
   {
+    title: "Features",
+    href: "/features",
+  },
+
+  {
     title: "Contact",
     href: "/contact",
   }
 ];
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+  const { getUser } = getKindeServerSession();
+  const user = await getUser();
+
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <main>
-          <nav>
-            <MainNav items={navLinks}></MainNav>
-          </nav>
-          {children}
-        </main>
-      </body>
-    </html>
+    <AuthProvider>
+
+      <html lang="en">
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          <main className="flex flex-col min-h-screen">
+            <header className="z-40  bg-background/60 backdrop-blur-md fixed top-0 left-0 right-0 border-b ">
+              <div className="lg:container mx-auto flex  items-center justify-between py-2 lg:py-3">
+                <MainNav items={navLinks} user={user} />
+              </div>
+            </header>
+            <div className="mt-16 flex-grow">
+
+              {children}
+            </div>
+            <Footer></Footer>
+          </main>
+        </body>
+      </html>
+    </AuthProvider>
   );
 }

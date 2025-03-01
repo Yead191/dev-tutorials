@@ -1,0 +1,243 @@
+[
+    {
+        "id": "1",
+        "title": "Google Data Analytics",
+        "description": "Learn data storytelling, data visualization, and how to use data for decision-making",
+        "thumbnail": "https://i.ytimg.com/vi/GbL-42kv5LI/maxresdefault.jpg?height=200&width=300",
+        "price": 49.99,
+        "category": "Data Science",
+        "instructor": "Google",
+        "rating": 4.8,
+        "reviews": 1634,
+        "chapters": 8,
+        "level": "Beginner",
+        "createdAt": "2023-01-15T00:00:00Z",
+        "updatedAt": "2023-12-10T00:00:00Z",
+        "tags": [
+            "data",
+            "analytics",
+            "visualization"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Google Cybersecurity",
+        "description": "Learn threat modeling, security controls, and intrusion detection techniques",
+        "thumbnail": "https://soldevelo.com/wp-content/uploads/2023/10/Post-on-blog-15.png?height=200&width=300",
+        "price": 59.99,
+        "category": "Cybersecurity",
+        "instructor": "Google",
+        "rating": 4.8,
+        "reviews": 476,
+        "chapters": 6,
+        "level": "Beginner",
+        "createdAt": "2023-03-22T00:00:00Z",
+        "updatedAt": "2023-11-05T00:00:00Z",
+        "tags": [
+            "security",
+            "cybersecurity",
+            "network"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Google Project Management",
+        "description": "Learn quality management, project scoping, and project planning techniques",
+        "thumbnail": "https://i.ytimg.com/vi/hHPAc0LFfZA/maxresdefault.jpg?height=200&width=300",
+        "price": 54.99,
+        "category": "Project Management",
+        "instructor": "Google",
+        "rating": 4.8,
+        "reviews": 1245,
+        "chapters": 7,
+        "level": "Beginner",
+        "createdAt": "2023-02-10T00:00:00Z",
+        "updatedAt": "2023-10-15T00:00:00Z",
+        "tags": [
+            "project",
+            "management",
+            "agile"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Web Development Bootcamp",
+        "description": "Complete web development bootcamp covering HTML, CSS, JavaScript, React and Node.js",
+        "thumbnail": "https://blog.pwskills.com/wp-content/uploads/2023/05/Untitled-1-1.png?height=200&width=300",
+        "price": 79.99,
+        "category": "Web Development",
+        "instructor": "Dr. Angela Yu",
+        "rating": 4.9,
+        "reviews": 2345,
+        "chapters": 12,
+        "level": "Beginner",
+        "createdAt": "2023-05-05T00:00:00Z",
+        "updatedAt": "2023-12-20T00:00:00Z",
+        "tags": [
+            "web",
+            "javascript",
+            "react",
+            "node"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Machine Learning A-Z",
+        "description": "Learn to create Machine Learning Algorithms in Python and R",
+        "thumbnail": "https://img-c.udemycdn.com/course/750x422/950390_270f_3.jpg?height=200&width=300",
+        "price": 69.99,
+        "category": "Data Science",
+        "instructor": "Kirill Eremenko",
+        "rating": 4.7,
+        "reviews": 1876,
+        "chapters": 10,
+        "level": "Intermediate",
+        "createdAt": "2023-04-12T00:00:00Z",
+        "updatedAt": "2023-11-25T00:00:00Z",
+        "tags": [
+            "machine learning",
+            "python",
+            "data science"
+        ]
+    },
+    {
+        "id": "6",
+        "title": "iOS App Development with Swift",
+        "description": "Learn iOS app development and build real-world apps using Swift",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIcvS2z-PBFC37t9Yy-a6sg-N_MnImmbytqA&s?height=200&width=300",
+        "price": 84.99,
+        "category": "Mobile Development",
+        "instructor": "Chris Anderson",
+        "rating": 4.6,
+        "reviews": 987,
+        "chapters": 9,
+        "level": "Intermediate",
+        "createdAt": "2023-06-18T00:00:00Z",
+        "updatedAt": "2023-12-05T00:00:00Z",
+        "tags": [
+            "ios",
+            "swift",
+            "mobile"
+        ]
+    },
+    {
+        "id": "7",
+        "title": "Advanced JavaScript Concepts",
+        "description": "Master advanced JavaScript concepts like closures, prototypes, and async patterns",
+        "thumbnail": "https://img-c.udemycdn.com/course/750x422/3390456_b037_3.jpg?height=200&width=300",
+        "price": 64.99,
+        "category": "Web Development",
+        "instructor": "Andrei Neagoie",
+        "rating": 4.9,
+        "reviews": 1432,
+        "chapters": 8,
+        "level": "Advanced",
+        "createdAt": "2023-07-22T00:00:00Z",
+        "updatedAt": "2023-12-15T00:00:00Z",
+        "tags": [
+            "javascript",
+            "advanced",
+            "web"
+        ]
+    },
+    {
+        "id": "8",
+        "title": "UX/UI Design Fundamentals",
+        "description": "Learn the principles of user experience and interface design",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeH8ZaxVs-_JpZlCQx_wz0k5gzb46e-J7vsQ&s?height=200&width=300",
+        "price": 59.99,
+        "category": "Design",
+        "instructor": "Sarah Johnson",
+        "rating": 4.7,
+        "reviews": 856,
+        "chapters": 6,
+        "level": "Beginner",
+        "createdAt": "2023-08-10T00:00:00Z",
+        "updatedAt": "2023-11-30T00:00:00Z",
+        "tags": [
+            "ux",
+            "ui",
+            "design"
+        ]
+    },
+    {
+        "id": "9",
+        "title": "Python for Data Science and Machine Learning",
+        "description": "Learn to use NumPy, Pandas, Seaborn, Matplotlib, and Scikit-Learn",
+        "thumbnail": "https://developer-blogs.nvidia.com/wp-content/uploads/2020/09/dask-cloud.png?height=200&width=300",
+        "price": 74.99,
+        "category": "Data Science",
+        "instructor": "Jose Portilla",
+        "rating": 4.8,
+        "reviews": 2156,
+        "chapters": 11,
+        "level": "Intermediate",
+        "createdAt": "2023-09-05T00:00:00Z",
+        "updatedAt": "2023-12-22T00:00:00Z",
+        "tags": [
+            "python",
+            "data science",
+            "machine learning"
+        ]
+    },
+    {
+        "id": "10",
+        "title": "AWS Certified Solutions Architect",
+        "description": "Prepare for the AWS Solutions Architect Associate certification",
+        "thumbnail": "https://img-c.udemycdn.com/course/750x422/5457928_e7a9.jpg?height=200&width=300",
+        "price": 89.99,
+        "category": "Cloud Computing",
+        "instructor": "Ryan Kroonenburg",
+        "rating": 4.7,
+        "reviews": 1765,
+        "chapters": 9,
+        "level": "Intermediate",
+        "createdAt": "2023-10-15T00:00:00Z",
+        "updatedAt": "2023-12-18T00:00:00Z",
+        "tags": [
+            "aws",
+            "cloud",
+            "certification"
+        ]
+    },
+    {
+        "id": "11",
+        "title": "React - The Complete Guide",
+        "description": "Dive in and learn React.js from scratch with hooks, Redux, and more",
+        "thumbnail": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/zRE6jb1GS0eMC8zAD9Fe?height=200&width=300",
+        "price": 69.99,
+        "category": "Web Development",
+        "instructor": "Maximilian Schwarzmüller",
+        "rating": 4.8,
+        "reviews": 2345,
+        "chapters": 10,
+        "level": "Intermediate",
+        "createdAt": "2023-11-20T00:00:00Z",
+        "updatedAt": "2023-12-25T00:00:00Z",
+        "tags": [
+            "react",
+            "javascript",
+            "web"
+        ]
+    },
+    {
+        "id": "12",
+        "title": "Complete Digital Marketing Course",
+        "description": "Master digital marketing strategies including SEO, social media, and email marketing",
+        "thumbnail": "https://www.creativeitinstitute.com/images/course/course_1662724358.jpg?height=200&width=300",
+        "price": 79.99,
+        "category": "Marketing",
+        "instructor": "Rob Percival",
+        "rating": 4.6,
+        "reviews": 1543,
+        "chapters": 8,
+        "level": "Beginner",
+        "createdAt": "2023-12-01T00:00:00Z",
+        "updatedAt": "2023-12-28T00:00:00Z",
+        "tags": [
+            "marketing",
+            "digital",
+            "seo"
+        ]
+    }
+]

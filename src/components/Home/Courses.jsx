@@ -9,40 +9,45 @@ const sampleCourses = [
     {
         id: 1,
         title: "Advanced Python Course",
-        category: "Design",
-        thumbnail: "/images/courses/python.png",
+        category: "Development",
+        thumbnail: "https://i.ibb.co.com/PGLhcvxm/pythonn.jpg",
         chapters: 2,
         price: 19.99,
     },
     {
         id: 2,
         title: "Advance Vue.js",
-        category: "Design",
-        thumbnail: "/images/courses/vue.png",
+        category: "Development",
+        thumbnail: "https://i.ibb.co.com/1tyf2d7P/vue.jpg",
         chapters: 2,
         price: 14.99,
     },
     {
         id: 3,
         title: "JavaScript Mastery",
-        category: "Design",
-        thumbnail: "/images/courses/javascript.png",
+        category: "Development",
+        thumbnail: "https://i.ibb.co.com/4nkMDFhv/js.jpg",
         chapters: 2,
         price: 15.99,
     },
     {
         id: 4,
         title: "React Zero To Hero",
-        category: "Design",
-        thumbnail: "/images/courses/react.png",
+        category: "Development",
+        thumbnail: "https://i.ibb.co.com/3yDNZr2x/react.jpg",
         chapters: 2,
         price: 9.99,
     }
 ];
 
+
+
+
+
+
 const Courses = () => {
     return (
-        <section id="courses" className="container space-y-6 md:py-12 lg:py-24">
+        <section id="courses" className="container space-y-6 md:py-12 lg:py-24 p-2">
             <div className="flex items-center justify-between">
                 <SectionTitle>Courses</SectionTitle>
                 <Link href="/courses" className="text-sm font-medium hover:opacity-80 flex items-center gap-1">

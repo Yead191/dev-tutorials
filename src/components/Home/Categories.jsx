@@ -3,33 +3,61 @@
 import { ArrowRightIcon, Briefcase, Paintbrush, Code, Megaphone } from "lucide-react";
 import Link from "next/link";
 import { SectionTitle } from "../SectionTitle";
+import { Database } from "lucide-react";
+import { Shield } from "lucide-react";
+import { ClipboardCheck } from "lucide-react";
+import { Smartphone } from "lucide-react";
+import { Paintbrush2 } from "lucide-react";
+import { Cloud } from "lucide-react";
+import { MegaphoneIcon } from "lucide-react";
 
 const categories = [
   {
     id: 1,
-    title: "Business",
-    icon: Briefcase,
+    title: "Data Science",
+    icon: Database,
   },
   {
     id: 2,
-    title: "Design",
-    icon: Paintbrush,
+    title: "Cybersecurity",
+    icon: Shield,
   },
   {
     id: 3,
-    title: "Development",
-    icon: Code,
+    title: "Project Management",
+    icon: ClipboardCheck,
   },
   {
     id: 4,
+    title: "Web Development",
+    icon: Code,
+  },
+  {
+    id: 5,
+    title: "Mobile Development",
+    icon: Smartphone,
+  },
+  {
+    id: 6,
+    title: "Design",
+    icon: Paintbrush2,
+  },
+  {
+    id: 7,
+    title: "Cloud Computing",
+    icon: Cloud,
+  },
+  {
+    id: 8,
     title: "Marketing",
-    icon: Megaphone,
+    icon: MegaphoneIcon,
   }
 ];
 
+
 const Categories = () => {
   return (
-    <section id="categories" className="space-y-6 py-8 md:py-12 lg:py-24 bg-lightBg">
+    <section id="categories" className="space-y-6 py-8 md:py-12 lg:py-24 bg-lightBg p-2">
       <div className="container flex items-center justify-between">
         <SectionTitle>Categories</SectionTitle>
         <Link href="" className="text-sm font-medium hover:opacity-80 flex items-center gap-1">
@@ -42,7 +70,7 @@ const Categories = () => {
           const Icon = category.icon;
           return (
             <Link
-              href="#"
+              href="/courses"
               key={category.id}
               className="relative overflow-hidden rounded-lg border bg-background p-4 hover:scale-105 transition-all duration-500 ease-in-out"
             >
