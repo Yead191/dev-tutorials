@@ -47,7 +47,7 @@ const sampleCourses = [
 
 const Courses = () => {
     return (
-        <section id="courses" className="container space-y-6 md:py-12 lg:py-24 p-2">
+        <section id="courses" className="container space-y-6 py-12  p-2">
             <div className="flex items-center justify-between">
                 <SectionTitle>Courses</SectionTitle>
                 <Link href="/courses" className="text-sm font-medium hover:opacity-80 flex items-center gap-1">

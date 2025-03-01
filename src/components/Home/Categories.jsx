@@ -57,7 +57,7 @@ const categories = [
 
 const Categories = () => {
   return (
-    <section id="categories" className="space-y-6 py-8 md:py-12 lg:py-24 bg-lightBg p-2">
+    <section id="categories" className="space-y-6 py-8 md:py-12  bg-lightBg p-2">
       <div className="container flex items-center justify-between">
         <SectionTitle>Categories</SectionTitle>
         <Link href="" className="text-sm font-medium hover:opacity-80 flex items-center gap-1">
